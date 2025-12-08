@@ -1,0 +1,14 @@
+0,1         W - szerokość radiatora [cm]
+0,08         H - wysokosć radiatora [cm]
+30           nW - Ilość węzłów w szerokości
+16           nH - ilość węzłów w wysokości
+20,0       T0 - początkowa temperatura radiatora [C]
+14400,0       t - czas symulacji [s]
+60,0        deltat - czas jednego kroku [s]
+70,0      talfaProc - temperatura procesora [C]
+25,0      talfaAir - temperatura otoczenia [C]
+900,0       alfa - współczynnik konwekcyjnej wymiany ciepła na procesorze [W/(m^2 C)]
+0 | 257,078 | 308,625 | 314,591      vAir - prędkość powietrza [m/s] | ustawienie konwekcji swobodnej
+900,0       c - ciepło właściwe aluminium [J/kg C]
+200,0        k - współczynnik przewodzenia ciepła aluminium [W/(m C)]
+2700,0      ro - gęstość materiału aluminium [kg/m^3]

@@ -1,0 +1,11 @@
+wentylator1:
+Iteracja: 239   min:    25,007  max:    31,353  avg:    26,115
+
+wentylator2:
+Iteracja: 239   min:    25,004  max:    31,163  avg:    26,042
+
+wentylator3:
+Iteracja: 239   min:    25,004  max:    31,144  avg:    26,035
+
+radiator:
+Iteracja: 239   min:    24,382  max:    70,630  avg:    31,592

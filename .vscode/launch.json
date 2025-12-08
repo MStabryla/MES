@@ -1,0 +1,144 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+
+        {
+            "name": "Lab1",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/Lab1/bin/Debug/netcoreapp3.1/Lab1.dll",
+            "args": ["data.txt"],
+            "cwd": "${workspaceFolder}/Lab1",
+            "console":"integratedTerminal",
+            "stopAtEntry": false
+        },
+        {
+            "name": "Lab2",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/Lab2/bin/Debug/netcoreapp3.1/Lab2.dll",
+            "args": ["data.txt"],
+            "cwd": "${workspaceFolder}/Lab2",
+            "console":"integratedTerminal",
+            "stopAtEntry": false
+        },
+        {
+            "name": "Lab3",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/Lab3/bin/Debug/netcoreapp3.1/Lab3.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/Lab3",
+            "console":"integratedTerminal",
+            "stopAtEntry": false
+        },
+        {
+            "name": "Lab4",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/lab4/bin/Debug/netcoreapp3.1/lab4.dll",
+            "args": ["data.txt"],
+            "cwd": "${workspaceFolder}/lab4",
+            "console":"integratedTerminal",
+            "stopAtEntry": false
+        },
+        {
+            "name": "Lab5",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/Lab5/bin/Debug/netcoreapp3.1/Lab5.dll",
+            "args": ["../data.txt"],
+            "cwd": "${workspaceFolder}/Lab5",
+            "console":"integratedTerminal",
+            "stopAtEntry": false,
+            "requireExactSource": false
+        },
+        {
+            "name": "Lab6",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build6",
+            "program": "${workspaceFolder}/Lab6/bin/Debug/netcoreapp3.1/Lab6.dll",
+            "args": ["../data.txt","2"],
+            "cwd": "${workspaceFolder}/Lab6",
+            "console":"integratedTerminal",
+            "stopAtEntry": false,
+            "requireExactSource": false
+        },
+        {
+            "name": "Lab7",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build7",
+            "program": "${workspaceFolder}/Lab7/bin/Debug/netcoreapp3.1/Lab7.dll",
+            "args": ["../data.txt","2"],
+            "cwd": "${workspaceFolder}/Lab7",
+            "console":"integratedTerminal",
+            "stopAtEntry": false,
+            "requireExactSource": false
+        },
+        {
+            "name": "Lab8_2",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build8",
+            "program": "${workspaceFolder}/Lab8/bin/Debug/netcoreapp3.1/Lab8.dll",
+            "args": ["../data.txt","2"],
+            "cwd": "${workspaceFolder}/Lab8",
+            "console":"integratedTerminal",
+            "stopAtEntry": false,
+            "requireExactSource": false
+        },
+        {
+            "name": "Lab8_3",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build8",
+            "program": "${workspaceFolder}/Lab8/bin/Debug/netcoreapp3.1/Lab8.dll",
+            "args": ["../data.txt","3"],
+            "cwd": "${workspaceFolder}/Lab8",
+            "console":"integratedTerminal",
+            "stopAtEntry": false,
+            "requireExactSource": false
+        },
+        {
+            "name": "Lab8_4",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build8",
+            "program": "${workspaceFolder}/Lab8/bin/Debug/netcoreapp3.1/Lab8.dll",
+            "args": ["../data.txt","4"],
+            "cwd": "${workspaceFolder}/Lab8",
+            "console":"integratedTerminal",
+            "stopAtEntry": false,
+            "requireExactSource": false
+        },
+        {
+            "name": "MES_PR",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "buildPR",
+            "program": "${workspaceFolder}/MES_PR/bin/Debug/netcoreapp3.1/MES_PR.dll",
+            "args": ["./data.txt","4"],
+            "cwd": "${workspaceFolder}/MES_PR",
+            "console":"integratedTerminal",
+            "stopAtEntry": false,
+            "requireExactSource": false
+        },
+        {
+            "name": ".NET Core Attach",
+            "type": "coreclr",
+            "request": "attach",
+            "processId": "${command:pickProcess}"
+        }
+    ]
+}
